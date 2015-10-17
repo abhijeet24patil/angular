@@ -1,0 +1,18 @@
+<div class="row">
+<div class="col-md-6 col-sm-offset-3">
+    <h2>Login</h2>
+    <hr>
+    <form ng-submit="login()">
+        <div class="form-group">
+            <label >Username</label>
+            <input type="text" class="form-control" name="uname" ng-model="user.uname" placeholder="Username" required>
+        </div>
+        <div class="form-group">
+            <label >Password</label>
+            <input type="password" class="form-control" name="pass" ng-model="user.pass" placeholder="password" required>
+        </div>
+        <button class="btn-primary btn-md">Submit</button>
+        {{msg}}
+    </form>
+</div>
+<div>
